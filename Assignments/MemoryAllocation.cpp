@@ -22,15 +22,12 @@ int main() {
     std:: cout << *dynamicInt;
     std:: cout << std:: endl;
 
-    std:: cout << "\nThe value of the dynamically allocated string is: ";
+    std:: cout << "\n\nThe value of the dynamically allocated string is: ";
     std:: cout << *dynamicString;
 
     // deallocating memory
     delete dynamicInt;
     delete dynamicString;
-
-    dynamicInt = 0;
-    dynamicString = 0;
 
     return 0;
 
