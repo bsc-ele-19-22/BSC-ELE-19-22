@@ -1,13 +1,8 @@
-#include "rectangle2.h"
+#include "rectangle.h"
 
 Rectangle:: Rectangle(void)  {
     length = 0.0f;
     width = 0.0f;
-}
-
-Rectangle:: Rectangle(float len, float wid) {
-    length = len;
-    width = wid;
 }
 
 Rectangle:: ~Rectangle(void) {
